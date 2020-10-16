@@ -2,9 +2,9 @@
 function generateMarkdown(data) {
   return `${data.licenseBadge}
   
-  # ${data.title}
+# ${data.title}
   
-  ## Table of Contents
+## Table of Contents
 
   * **[Title](#Title:)**  
   * **[Description](#Description)**  
@@ -15,39 +15,39 @@ function generateMarkdown(data) {
   * **[Tests](#Tests)**  
   * **[Questions](#Questions)** 
   
-    # Description
+# Description
   
-  ${data.description}
+${data.description}
   
-  # Installation Requirements
+# Installation Requirements
   
-  ${data.install}
+${data.install}
   
-  # Usage
+# Usage
   
-  ${data.usage}
+${data.usage}
   
-  # License 
+# License 
   
-  ${data.license}
+${data.license}
   
-  # Contributors
+# Contributors
   
-  ${data.contribute}
+${data.contribute}
   
-  # Tests
+# Tests
   
-  ${data.tests}
+${data.tests}
   
-  # Questions
-  
-    
-  ## [Github Profile: github.com/${data.github}](https://github.com/${data.github} "Title")
+# Questions
 
-    Please email me at ${data.email} if you have additional questions. 
+    
+## [Github Profile: github.com/${data.github}](https://github.com/${data.github} "Title")
+
+Please email me at ${data.email} if you have additional questions. 
   
-  ### Image of ${data.title}
-  ![alt text](./)`
+### Image of ${data.title}
+![alt text](./)`
 }
 
 module.exports = generateMarkdown;

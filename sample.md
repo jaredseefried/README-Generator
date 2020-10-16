@@ -1,9 +1,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  # This Is my Title
+# This is the title
   
-  # Table of Contents
-  
+## Table of Contents
+
+  * **[Title](#Title:)**  
   * **[Description](#Description)**  
   * **[Installation Requirements](#Installation-Requirements)**  
   * **[Usage](#Usage)**  
@@ -12,33 +13,36 @@
   * **[Tests](#Tests)**  
   * **[Questions](#Questions)** 
   
-  # Description
+# Description
   
-  this is my description
+this is the description text
   
-  # Installation Requirements
+# Installation Requirements
   
-  the installation requirements
+install requirements
   
-  # Usage
+# Usage
   
-  usage
+usage
   
-  # License 
+# License 
   
-  MIT
+MIT
   
-  # Contributors
+# Contributors
   
-  jared seefried
+Jared Seefried
   
-  # Tests
+# Tests
   
-  no tests
+No Tests
   
-  # Questions
-  
-    
-  ## [Github Profile](https://github.com/jaredseefried "Title")
+# Questions
 
-  ### Please email me at jared.seefried@yahoo.com if you have additional questions. 
+    
+## [Github Profile: github.com/jaredseefried](https://github.com/jaredseefried "Title")
+
+Please email me at jared.seefried@yahoo.com if you have additional questions. 
+  
+### Image of This is the title
+![alt text](./)
