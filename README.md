@@ -1,6 +1,11 @@
 # README Generator
 
-https://jaredseefried.github.io/README-Generator/
+Link to video: https://www.dropbox.com/s/1plcsqjbvhn0woo/README%20Generator%20Video.mp4?dl=0
+
+
+![README Generator Gif](./images/READMEGenerator.gif)
+
+Live site: https://jaredseefried.github.io/README-Generator/
 
 ## Table of Contents
 

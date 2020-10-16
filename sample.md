@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-# Title
+# This is the Title
   
 ## Table of Contents
 
@@ -14,15 +14,15 @@
   
 # Description
   
-AEfEF
+This is the description of the project
   
 # Installation Requirements
   
-SEWFAEF
+Installation Requirements
   
 # Usage
   
-ASDGAWERG
+Usage
   
 # License 
   
@@ -30,11 +30,11 @@ MIT
   
 # Contributors
   
-aerg
+Jared Seefried
   
 # Tests
   
-aerg
+Testing Scenarios
   
 # Questions
 
@@ -43,5 +43,5 @@ aerg
 
 Please email me at jared.seefried@yahoo.com if you have additional questions. 
   
-### Image of Title
+### Image of This is the Title
 ![alt text](./)
