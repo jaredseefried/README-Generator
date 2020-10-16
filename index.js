@@ -1,8 +1,9 @@
+// variables for 
 var inquirer = require('inquirer');
 var fs = require('fs');
 var markdown = require("./utils/generateMarkdown");
 
-// array of questions for user
+// array of questions that are promoted to the user
 const questions = [
   {
     type: "input",
@@ -11,7 +12,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is the Description of the porject?",
+    message: "What is the Description of the project?",
     name: "description",
   },
   {
@@ -42,21 +43,15 @@ const questions = [
   },
   {
     type: "input",
-    message: "Any Last Questions",
-    name: "questions",
-  },
-  {
-    type: "input", 
     message: "What is your Github username?",
     name: "github",
   },
   {
-    type: "input", 
+    type: "input",
     message: "What is your email address?",
     name: "email",
   }
 ];
-
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -66,19 +61,20 @@ function writeToFile(fileName, data) {
     }
     console.log("Write to File");
   })
-    ;
 }
 
 // function to initialize program
 function init() {
+
+  // prompt the user with the array of questions
   inquirer.prompt(questions).then(data => {
 
-
+    // Switch statement for the License Badge
     switch (data.license) {
-      case "MIT": 
+      case "MIT":
         data.licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
         break;
-      
+
       case "APACHE 2.0":
         data.licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
         break;
@@ -86,23 +82,19 @@ function init() {
       case "GPL 3.0":
         data.licenseBadge = "[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)"
         break;
-      
+
       case "BSD 3":
-        data.licenseBadge = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)" 
+        data.licenseBadge = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
         break;
-      
+
       case "none":
         data.licenseBadge = ""
         break;
     }
 
+    // Write the sample.md file and put the data in the markdown file.
     writeToFile("sample.md", markdown(data))
-
-    if (data == undefined || data == null) {
-      fs.appendFileSync("sample.md", markdown(data))
-    }
   })
-
 }
 
 // function call to initialize program

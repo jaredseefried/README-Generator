@@ -2,7 +2,9 @@
 function generateMarkdown(data) {
   return `${data.licenseBadge}
   
-  # Table of Contents
+  # ${data.title}
+  
+  ## Table of Contents
 
   * **[Title](#Title:)**  
   * **[Description](#Description)**  
@@ -13,9 +15,7 @@ function generateMarkdown(data) {
   * **[Tests](#Tests)**  
   * **[Questions](#Questions)** 
   
-  # Title: ${data.title}
-  
-  # Description
+    # Description
   
   ${data.description}
   
@@ -41,9 +41,7 @@ function generateMarkdown(data) {
   
   # Questions
   
-  ${data.questions}
-
-  
+    
   ## [Github Profile](https://github.com/${data.github} "Title")
 
   ### Please email me at ${data.email} if you have additional questions. `

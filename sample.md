@@ -2,7 +2,7 @@
   
   # Table of Contents
 
-  * **[Title](#Title:)**  
+  * **[Title](#Title)**  
   * **[Description](#Description)**  
   * **[Installation Requirements](#Installation-Requirements)**  
   * **[Usage](#Usage)**  
@@ -11,19 +11,19 @@
   * **[Tests](#Tests)**  
   * **[Questions](#Questions)** 
   
-  # Title: title of repo namer
+  # Title: This Is my Title
   
   # Description
   
-  AESFsdfaEF
+  this is my description
   
   # Installation Requirements
   
-  AWEGFAEWGF
+  the installation requirements
   
   # Usage
   
-  awefWEF
+  usage
   
   # License 
   
@@ -31,19 +31,15 @@
   
   # Contributors
   
-  efWEF
+  jared seefried
   
   # Tests
   
-  ewfSEFW
+  no tests
   
   # Questions
   
-  WEfWEF
+    
+  ## [Github Profile](https://github.com/jaredseefried "Title")
 
-  Github Profile:  
-  [Github Profile](https://github.com/JAREDSEEFRIED "Title")
-
-  Email Address
-  
-  Please email me at JARED.SEEFRIED@YAHOO.COM if you have additional questions. 
+  ### Please email me at jared.seefried@yahoo.com if you have additional questions. 
