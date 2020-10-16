@@ -1,8 +1,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
+  # This Is my Title
+  
   # Table of Contents
-
-  * **[Title](#Title)**  
+  
   * **[Description](#Description)**  
   * **[Installation Requirements](#Installation-Requirements)**  
   * **[Usage](#Usage)**  
@@ -10,8 +11,6 @@
   * **[Contributors](#Contributors)**  
   * **[Tests](#Tests)**  
   * **[Questions](#Questions)** 
-  
-  # Title: This Is my Title
   
   # Description
   

@@ -42,9 +42,12 @@ function generateMarkdown(data) {
   # Questions
   
     
-  ## [Github Profile](https://github.com/${data.github} "Title")
+  ## [Github Profile: github.com/${data.github}](https://github.com/${data.github} "Title")
 
-  ### Please email me at ${data.email} if you have additional questions. `
+    Please email me at ${data.email} if you have additional questions. 
+  
+  ### Image of ${data.title}
+  ![alt text](./)`
 }
 
 module.exports = generateMarkdown;
