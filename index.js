@@ -4,7 +4,7 @@ var fs = require('fs');
 var markdown = require("./utils/generateMarkdown");
 
 // array of questions that are promoted to the user
-const questions = [
+const questions = [ 
   {
     type: "input",
     message: "What is the Title of your Repository?",
